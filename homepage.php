@@ -134,6 +134,6 @@
 	</div>
 	<script type="text/javascript">
 		$(".section").css("min-height", $(window).height());
-	</script>asdsadasd
+	</script>
 </body>
 </html>
