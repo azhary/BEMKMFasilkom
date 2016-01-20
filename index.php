@@ -91,6 +91,17 @@
 	  #daftar {
 	  	text-align: center;
 	  	background-color: #bdc3c7;
+	  	background-image: url(img/bg.png);
+	  	background-size: cover;
+	  	color: #DDD;
+	  }
+
+	  #daftar h1 {
+	  	color: #FFF;
+	  }
+
+	  table.table{
+	  	background-color: rgba(0, 0, 0, 0.5);
 	  }
 
 	  #btndaftar {
@@ -171,7 +182,7 @@
 	    </nav>
 	    <div class="col-sm-9" id="sections">
 	      <div class="pamflet row" id="persyaratan">    
-	        <img id="pamflet" src="img/pamflet.png">
+	        <img id="pamflet" src="img/pamf.png">
 	      </div>        
 	      <div class="section row" id="humas">         
 	        <h1 class="text-center">Hubungan Masyarakat</h1>
@@ -304,8 +315,22 @@ kemampuan bermain musik. Maka dari itu Dinas Seni dan Budaya memiliki slogan yan
 	        	</div>
 	        </div>
 	      </div>
-	      <div class="section row" id="daftar">         
-	        <h1 class="text-center">Klik tombol di bawah ini untuk mendaftar</h1>
+	      <div class="section row" id="daftar">
+	      	<h1>Tanggal Penting</h1>
+	      	<table class="table">
+	      		<tr>
+	      			<td>Pendaftaran</td>
+	      			<td>21 - 28 Januari</td>
+	      		</tr>
+	      		<tr>
+	      			<td>Wawancara</td>
+	      			<td>29 - 30 Januari</td>
+	      		</tr>
+	      		<tr>
+	      			<td>Workshop</td>
+	      			<td>31 Januari</td>
+	      		</tr>
+	      	</table>
 	        <a href="http://bem.ilkom.unsri.ac.id/or"><button id="btndaftar" class="btn btn-success">Daftar</button></a>
 	      </div>
 	    </div>
