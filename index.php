@@ -359,7 +359,7 @@ kemampuan bermain musik. Maka dari itu Dinas Seni dan Budaya memiliki slogan yan
 
 		
 		if ($(window).width() <= 830){	
-			$(".section").css("height", $(window).height() * 1.2);
+			$(".section").css("height", $(window).height() * 1.8);
 		}	
 		
 	</script>
